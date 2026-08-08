@@ -2,12 +2,14 @@
 
 This is a CLI, written in Rust, which allows you to use every defined Govee LAN API function from your terminal. This CLI also supports aliasing of lights through an interactive setup process or a TOML file declaration.
 
+At some point in the future, there are plans for animations and an optional daemon, which will be able to play animations and respond to system audio. At this point, however, this is only a CLI.
+
 # Supported Commands
 
 This CLI supports the following commands.
 
 Commands:
-  **find-new**      perform interactive setup for new devices (config found in ~/.config/govee-cli/)
+  **find-new**      perform interactive setup for new devices (config found in ~/.config/goveectl/)
   **remove-alias**  remove an alias from the config
   **list**          list all devices on local network
   **list-aliases**  list all currently registered aliases on separate lines
