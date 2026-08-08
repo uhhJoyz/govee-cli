@@ -35,7 +35,7 @@ pub fn read_aliases() -> io::Result<HashMap<String, Light>> {
     let cfg_path = Path::new(&std::env::var("HOME").expect(
         "Could not retrieve $HOME environment variable. Please ensure that it is defined to use configuration.",
     ))
-    .join(Path::new(".config/govee-cli"));
+    .join(Path::new(".config/goveectl"));
     let alias_path = cfg_path.join(Path::new("aliases.toml"));
 
     // create them if they do not exist
@@ -67,7 +67,7 @@ pub fn write_new_aliases(aliases_string: &str) -> io::Result<()> {
     let cfg_path = Path::new(&std::env::var("HOME").expect(
         "Could not retrieve $HOME environment variable. Please ensure that it is defined to use configuration.",
     ))
-    .join(Path::new(".config/govee-cli"));
+    .join(Path::new(".config/goveectl"));
     let alias_path = cfg_path.join(Path::new("aliases.toml"));
 
     // create them if they do not exist

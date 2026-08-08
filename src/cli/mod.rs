@@ -16,7 +16,7 @@ pub enum PowerState {
 
 #[derive(Subcommand, Debug)]
 pub enum Commands {
-    /// perform interactive setup for new devices (config found in ~/.config/govee-cli/)
+    /// perform interactive setup for new devices (config found in ~/.config/goveectl/)
     FindNew {
         #[arg(long)]
         auto: bool,
