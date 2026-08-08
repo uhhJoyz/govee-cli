@@ -2,6 +2,14 @@
 name = "govee-cli"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+categories = ["command-line-utilities", "api-bindings", "network-programming"]
+description = "A small CLI for managing LAN-enabled Govee light products through their publicly-available API."
+repository = "https://github.com/uhhJoyz/govee-cli"
+readme = "README.md"
+include = [
+  "**/*.rs"
+]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
