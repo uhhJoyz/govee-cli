@@ -1,11 +1,11 @@
 [package]
-name = "govee-cli"
+name = "goveectl"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
 categories = ["command-line-utilities", "api-bindings", "network-programming"]
 description = "A small CLI for managing LAN-enabled Govee light products through their publicly-available API."
-repository = "https://github.com/uhhJoyz/govee-cli"
+repository = "https://github.com/uhhJoyz/goveectl"
 readme = "README.md"
 include = [
   "**/*.rs"
